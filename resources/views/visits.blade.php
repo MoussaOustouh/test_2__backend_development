@@ -47,6 +47,8 @@
         
         <div class="div1">
             <br>
+            <a target="_blanc" href="https://www.linkedin.com/in/moussa-oustouh/" style="font-size:20px; color:#0A66C2;" title="LinkedIn">Moussa OUSTOUH</a>
+            <br>
             <span class="countV">{{count($list_visits)}} visits</span>
             <br>
             <span><b>The last visit -</b> <u>Datetime :</u> {{$list_visits[count($list_visits)-1]->datetime}}  <u>IP :</u> {{$list_visits[count($list_visits)-1]->ip}}</span>
